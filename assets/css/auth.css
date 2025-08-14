@@ -1,0 +1,68 @@
+/* Auth Pages */
+.auth-container {
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-header h2 {
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+}
+
+.auth-header p {
+  color: var(--gray-color);
+}
+
+.auth-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.auth-form .form-control {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.auth-form .btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  color: var(--gray-color);
+}
+
+/* Login Specific */
+.login-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Register Specific */
+.register-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}

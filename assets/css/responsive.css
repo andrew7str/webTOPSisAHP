@@ -1,0 +1,101 @@
+/* Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    padding-top: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .admin-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-container,
+  .login-container,
+  .register-container {
+    margin: 2rem auto;
+    padding: 1.5rem;
+  }
+  
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .hero {
+    padding: 3rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .auth-container,
+  .login-container,
+  .register-container {
+    margin: 1.5rem auto;
+    padding: 1.25rem;
+  }
+  
+  .hero {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+  }
+  
+  footer .row > div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+}

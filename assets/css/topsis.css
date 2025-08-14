@@ -1,0 +1,151 @@
+/* TOPSIS Recommendation Cards */
+.recommendation-card {
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.recommendation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.recommendation-card .card-img-top {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.recommendation-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendation-card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.recommendation-card .card-text {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+}
+
+.recommendation-card .card-footer {
+  background-color: white;
+  border-top: none;
+  padding: 1rem;
+}
+
+/* Recommendation Score */
+.score-badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: var(--primary-color);
+}
+
+.score-progress {
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.score-progress .progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Comparison Matrix */
+.comparison-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.comparison-matrix th,
+.comparison-matrix td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #dee2e6;
+}
+
+.comparison-matrix th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.comparison-matrix .matrix-header {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.comparison-matrix .matrix-diagonal {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+/* TOPSIS Results Table */
+.topsis-results {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.topsis-results th,
+.topsis-results td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.topsis-results th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  text-align: left;
+}
+
+.topsis-results tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Criteria Weights Display */
+.criteria-weights {
+  list-style: none;
+  padding: 0;
+}
+
+.criteria-weights li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.criteria-weights li:last-child {
+  border-bottom: none;
+}
+
+.criteria-weight-name {
+  font-weight: 500;
+}
+
+.criteria-weight-value {
+  font-weight: 600;
+  color: var(--primary-color);
+}
